@@ -36,7 +36,7 @@ while True:
         print("Empate")
         pass
 
-    if num_player > num_ia
+    if num_player > num_ia:
         print("Ganaste")
         puntu_player += 1
         pass
