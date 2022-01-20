@@ -20,3 +20,17 @@ while True:
     print("Has escogido el numero: " + num_player)
     print("He escogido el numero: " + num_ia)
     
+
+    if num_player > 5 or num_player < 1:
+        print("No has escogido un numero valido")
+        pass
+
+    print("Los numeros son validos")
+
+    if num_player = num_ia:
+        print("Empate")
+        pass
+
+    if num_player > num_ia
+        print("You won")
+    
