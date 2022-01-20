@@ -32,7 +32,7 @@ while True:
 
     print("Los numeros son validos")
 
-    if num_player = num_ia:
+    if num_player == num_ia:
         print("Empate")
         pass
 
