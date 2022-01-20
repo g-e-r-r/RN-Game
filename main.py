@@ -8,7 +8,12 @@ puntu_ia = None
 puntu_player = None
 
 while True:
+    os.system("cls")
+    
     print("Bienvenido a Random Number")
+    print("Las puntuaciones son:")
+    print("IA: " + puntu_ia + "Tu " + puntu_player)
+    
     num_player = input("Selecciona un numero(1-5):")
     
     print("Escogiendo un numero...Espere")
@@ -32,5 +37,11 @@ while True:
         pass
 
     if num_player > num_ia
-        print("You won")
+        print("Ganaste")
+        puntu_player += 1
+        pass
     
+    if num_ia > num_player:
+        print("Perdiste")
+        puntu_ia += 1
+        pass
